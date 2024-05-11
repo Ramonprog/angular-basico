@@ -5,8 +5,12 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './componente02.component.html',
-  styleUrl: './componente02.component.css'
+  styleUrl: './componente02.component.css',
 })
 export class Componente02Component {
+  // não temos a palavra reservada function
 
+  mensagem() {
+    alert('Olá, mundo!');
+  }
 }
